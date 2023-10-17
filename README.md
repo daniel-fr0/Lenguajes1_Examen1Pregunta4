@@ -27,16 +27,16 @@ Para ejecutar los tests, tiene que tener instalado CMake, si no lo tiene lo pued
 	sudo apt-get install cmake
 ```
 
-Luego, para ejecutar los tests, ejecute el script `run_tests.sh`:
+Luego, para ejecutar los tests, ejecute el script `runTests`:
 
 ```bash
-	./run_tests.sh
+	./runTests
 ```
 
 Si desea volver a construir los tests, ejecute el script con la opcion `build`:
 
 ```bash
-	./run_tests.sh build
+	./runTests build
 ```
 
 ## Como limpiar los archivos generados
@@ -49,8 +49,8 @@ Para limpiar los archivos generados, ejecute el makefile con la opcion `clean`:
 
 ## Como limpiar los archivos generados por los tests
 
-Para limpiar los archivos generados por los tests, ejecute el script `run_tests.sh` con la opcion `clean`:
+Para limpiar los archivos generados por los tests, ejecute el script `runTests` con la opcion `clean`:
 
 ```bash
-	./run_tests.sh clean
+	./runTests clean
 ```
